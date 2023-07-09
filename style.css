@@ -1,0 +1,68 @@
+/* navber style section */
+
+.nav-container{
+    display: flex;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.menu{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 15px;
+    font-size: 17px;
+    font-style: italic;
+}
+.menues{
+    cursor: pointer;
+}
+
+/* Banner section styles */
+.banner-container{
+    height: 100vh;
+    background-image: url('./image/background.jpg');
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    background-position: center;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.4)));
+}
+.banner-info .d{
+    color: red;    
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+
+}
+.banner-info{
+    color: white;
+}
+.description{
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+.btn{
+    padding:12px 15px;
+    border:none;
+}
+.btn-bg{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 12px 15px;
+}
+.btn{
+    padding: 12px 15px;
+    border: none;
+}
